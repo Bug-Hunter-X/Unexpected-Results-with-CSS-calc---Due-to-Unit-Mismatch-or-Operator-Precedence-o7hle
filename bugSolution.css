@@ -1,0 +1,3 @@
+To solve the issue, ensure all values within the `calc()` function have consistent units.  Explicitly specify units for all values, even if they might seem implicit.  Use parentheses to control operator precedence when necessary to ensure calculations are performed in the order you intend.
+
+For example, correct the erroneous `width: calc(100% - 10);` to `width: calc(100% - 10px);`.
