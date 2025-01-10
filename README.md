@@ -1,0 +1,1 @@
+This example demonstrates how unit mismatches or unexpected operator precedence in CSS `calc()` can lead to unexpected results. The `bug.css` file contains the erroneous code, while `bugSolution.css` shows the correct implementation.
